@@ -69,8 +69,8 @@ function Upload() {
     return (
         <Container as="main">
             <Text as="h2">Alta de productos</Text>
-            <Box className="grid">
-                <Box className="col-xs-12 col-md-6 col-lg-5 col-xl-4">
+            <Box>
+                <Box >
                     <Form 
                         values={values}
                         errors={errors}

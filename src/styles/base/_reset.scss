@@ -8,6 +8,8 @@ body {
 
 main {
     min-height: calc(100vh - (4.5rem + 2rem + 64px));
+    margin: auto;
+    text-align: center;
 }
 
 a {
@@ -15,6 +17,7 @@ a {
     text-decoration: none;
 }
 
-h1, h3 {
-    margin: 0;
+h1, h3, h2 {
+    display: flex;
+    justify-content: center;
 }
