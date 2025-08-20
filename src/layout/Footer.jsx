@@ -7,7 +7,7 @@ import { faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg
 
 function Footer() {
     return (
-        <Box as='footer' className="footer__container">
+        <Box as='footer' className="footer__container m-4">
             <Container className="footer__wrapp">
                 <Text as="h4">Juguetería Cósmica</Text>
                 <Text as="span">Copyright 2025 ©</Text>
