@@ -9,7 +9,7 @@ function Footer() {
     return (
         <Box as='footer' className="footer__container m-4">
             <Container className="footer__wrapp">
-                <Text as="h4">Juguetería Cósmica</Text>
+                <Text as="h4">SHINY</Text>
                 <Text as="span">Copyright 2025 ©</Text>
                 <Box>
                     <FontAwesomeIcon className="footer__socialmedia-links" icon={faFacebook} />

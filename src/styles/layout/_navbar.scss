@@ -41,7 +41,7 @@
             background-color: transparent;
             border: 2px solid $primary-color;
             border-radius: 0.5rem;
-            color: $primary-color;
+            color: $white-color;
             padding: 0.5rem;
         }
     }
@@ -83,7 +83,7 @@
                     color: $strong-primary-color;
                 };
                 &:visited {
-                    color: $light-primary-color;
+                    color: $white-color;
                 }
             }
         }
