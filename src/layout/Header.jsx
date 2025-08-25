@@ -5,7 +5,7 @@ import Cart from "../components/Cart"
 import Container from "../components/Container"
 import Text from "../components/Text"
 
-import brandImage from "../assets/brand-image.png"
+import brandImage from "../assets/brand-image2.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 import { useState } from "react"
@@ -23,7 +23,7 @@ function Header() {
                     <img src={brandImage} alt="" className="mr-4"/>
                     <Text as="h1" className="animated-title" onClick={() => navigate("/")}>SHINY</Text>
                 </NavLink>
-                <Box as="nav" className="navbar__navigation">
+                <Box as="nav" className="navbar__navigation d-flex align-center">
                     <ul>
                         <li><NavLink to="/about-us">Sobre Nosotros</NavLink></li>
                         <li><NavLink to="/upload">Alta</NavLink></li>

@@ -50,9 +50,9 @@ function ContactUs() {
 
     return (
         <Container as="main">
-            <Text as="h2">Contactanos</Text>
-            <Box className="grid">
-                <Box className="col-xs-12 col-md-6 col-lg-5 col-xl-4">
+            <Text as="h2" className="mt-12">Contactanos</Text>
+            <Box className="mt-12 d-flex">
+                <Box className="col-xs-12 col-md-6 col-lg-5 col-xl-4 w-40">
                     <Form 
                         values={values}
                         errors={errors}
@@ -82,6 +82,8 @@ function ContactUs() {
                         ]}
                     />
                 </Box>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.3207635563494!2d-58.39688818886746!3d-34.59604957284419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabdfc19634f%3A0x64ee35e91065805!2sEditorial%20El%20Ateneo%20Grupo%20Ilhsa!5e0!3m2!1ses-419!2sar!4v1756086300257!5m2!1ses-419!2sar" className="w-60"></iframe>
             </Box>
         </Container>
     )
